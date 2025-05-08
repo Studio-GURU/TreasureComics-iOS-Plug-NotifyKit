@@ -1,0 +1,1195 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TreasureComicsPlugNotifyKit",
+    "printedName": "TreasureComicsPlugNotifyKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PlugNotificationBuilder",
+        "printedName": "PlugNotificationBuilder",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "builder",
+            "printedName": "builder()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationContractorBuilder",
+                "printedName": "any TreasureComicsFoundationKit.NotificationContractorBuilder",
+                "usr": "s:27TreasureComicsFoundationKit29NotificationContractorBuilderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureComicsPlugNotifyKit0C19NotificationBuilderC7builder0ab10FoundationE00f10ContractorG0_pyFZ",
+            "mangledName": "$s27TreasureComicsPlugNotifyKit0C19NotificationBuilderC7builder0ab10FoundationE00f10ContractorG0_pyFZ",
+            "moduleName": "TreasureComicsPlugNotifyKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27TreasureComicsPlugNotifyKit0C19NotificationBuilderC",
+        "mangledName": "$s27TreasureComicsPlugNotifyKit0C19NotificationBuilderC",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationWebKit",
+        "printedName": "NotificationWebKit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "retrieveStatus",
+            "printedName": "retrieveStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotifyStatus",
+                "printedName": "TreasureComicsFoundationKit.NotifyStatus",
+                "usr": "s:27TreasureComicsFoundationKit12NotifyStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureComicsPlugNotifyKit015NotificationWebE0C14retrieveStatus0ab10FoundationE00dI0OyFZ",
+            "mangledName": "$s27TreasureComicsPlugNotifyKit015NotificationWebE0C14retrieveStatus0ab10FoundationE00dI0OyFZ",
+            "moduleName": "TreasureComicsPlugNotifyKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateStatus",
+            "printedName": "updateStatus(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotifyStatus",
+                "printedName": "TreasureComicsFoundationKit.NotifyStatus",
+                "usr": "s:27TreasureComicsFoundationKit12NotifyStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureComicsPlugNotifyKit015NotificationWebE0C12updateStatus6statusy0ab10FoundationE00dI0O_tFZ",
+            "mangledName": "$s27TreasureComicsPlugNotifyKit015NotificationWebE0C12updateStatus6statusy0ab10FoundationE00dI0O_tFZ",
+            "moduleName": "TreasureComicsPlugNotifyKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openInduceView",
+            "printedName": "openInduceView(rootViewController:title:content:iconUrl:delaySeconds:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureComicsPlugNotifyKit015NotificationWebE0C14openInduceView04rootJ10Controller5title7content7iconUrl12delaySeconds7payloadySo06UIViewL0C_S3SSgSiSStFZ",
+            "mangledName": "$s27TreasureComicsPlugNotifyKit015NotificationWebE0C14openInduceView04rootJ10Controller5title7content7iconUrl12delaySeconds7payloadySo06UIViewL0C_S3SSgSiSStFZ",
+            "moduleName": "TreasureComicsPlugNotifyKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openSetting",
+            "printedName": "openSetting(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureComicsPlugNotifyKit015NotificationWebE0C11openSetting18rootViewControllerySo06UIViewL0C_tFZ",
+            "mangledName": "$s27TreasureComicsPlugNotifyKit015NotificationWebE0C11openSetting18rootViewControllerySo06UIViewL0C_tFZ",
+            "moduleName": "TreasureComicsPlugNotifyKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deliverNotification",
+            "printedName": "deliverNotification(title:content:delaySeconds:payload:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:27TreasureComicsPlugNotifyKit015NotificationWebE0C07deliverF05title7content12delaySeconds7payload17completionHandlerySS_SSSiSDyS2SGSgySbctFZ",
+            "mangledName": "$s27TreasureComicsPlugNotifyKit015NotificationWebE0C07deliverF05title7content12delaySeconds7payload17completionHandlerySS_SSSiSDyS2SGSgySbctFZ",
+            "moduleName": "TreasureComicsPlugNotifyKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:27TreasureComicsPlugNotifyKit015NotificationWebE0C",
+        "mangledName": "$s27TreasureComicsPlugNotifyKit015NotificationWebE0C",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureComicsFoundationKit",
+        "printedName": "TreasureComicsFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureComicsPlugNotifyKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Library\/NotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 21,
+      "value": "\"NotificationHandler\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Library\/NotificationHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 28,
+      "value": "\"TreasureComicsNotification\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 773,
+      "length": 35,
+      "value": "\"NotificationSettingViewController\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 850,
+      "length": 3,
+      "value": "240"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1093,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1202,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1370,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1409,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1594,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1984,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2283,
+      "length": 9,
+      "value": "\"#FF6103\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2328,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2366,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2428,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2812,
+      "length": 9,
+      "value": "\"#222222\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2867,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2928,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3213,
+      "length": 9,
+      "value": "\"#666666\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3263,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3324,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3599,
+      "length": 9,
+      "value": "\"#666666\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3649,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3710,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3929,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4114,
+      "length": 9,
+      "value": "\"#EAEAEA\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationSettingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4559,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Library\/PropertyHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 213,
+      "length": 17,
+      "value": "\"PropertyHandler\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1201,
+      "length": 34,
+      "value": "\"NotificationInduceViewController\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1339,
+      "length": 3,
+      "value": "310"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1718,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1827,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1995,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2079,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2484,
+      "length": 9,
+      "value": "\"#222222\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2545,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2606,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2872,
+      "length": 9,
+      "value": "\"#666666\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2922,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2983,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3204,
+      "length": 9,
+      "value": "\"#EAEAEA\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3272,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3482,
+      "length": 5,
+      "value": "\"•\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3536,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3614,
+      "length": 9,
+      "value": "\"#666666\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3709,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3764,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3847,
+      "length": 9,
+      "value": "\"#666666\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3891,
+      "length": 63,
+      "value": "\"Notifications are sent to your phone's default messaging app.\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4025,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4206,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4364,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4460,
+      "length": 5,
+      "value": "\"•\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4514,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4592,
+      "length": 9,
+      "value": "\"#666666\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4687,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4742,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4825,
+      "length": 9,
+      "value": "\"#666666\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4869,
+      "length": 63,
+      "value": "\"Notifications are sent to your phone's default messaging app.\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5003,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5184,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5342,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5453,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5906,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6121,
+      "length": 9,
+      "value": "\"#999999\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6166,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6204,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6266,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6611,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6826,
+      "length": 9,
+      "value": "\"#FF6103\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6871,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6909,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/Scene\/View\/NotificationInduceViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6971,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 18,
+      "value": "\"기다무 알림\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 680,
+      "length": 46,
+      "value": "\"'기다무' 알림을 받으시겠습니까?\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 921,
+      "length": 183,
+      "value": "\"알림과 관련된 안내 사항을 고지 합니다.\n알림과 관련된 안내 사항을 고지 합니다.\n설정창을 통해 '기다무' 알림을 변경할 수 있습니다.\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 1297,
+      "length": 22,
+      "value": "\"알림 받지 않기\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 1341,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 14,
+      "value": "\"알림받기\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 1729,
+      "length": 34,
+      "value": "\"알림이 거부되었습니다.\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 1785,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 1965,
+      "length": 34,
+      "value": "\"알림이 설정되었습니다.\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 2021,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 2197,
+      "length": 105,
+      "value": "\"'기다무' 알림을 받기위해서는 앱의 설정에서 알림 권한 허용이 필요합니다.\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 2324,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 2492,
+      "length": 25,
+      "value": "\"기다무 알림 설정\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 2539,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 2720,
+      "length": 46,
+      "value": "\"'기다무' 알림을 받으시겠습니까?\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 2788,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 2983,
+      "length": 37,
+      "value": "\"'기다리면 무료' 알림 받기\""
+    },
+    {
+      "filePath": "\/Users\/sunwoo\/Develop\/TreasureComics\/Project.TreasureComics.iOS\/TreasureComics.iOS.Source\/TreasureComics-Platforms\/Plug\/TreasureComicsPlugNotify\/R\/RNotification.swift",
+      "kind": "StringLiteral",
+      "offset": 3042,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

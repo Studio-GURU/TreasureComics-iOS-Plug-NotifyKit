@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TreasureComicsPlugNotifyKit
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import Foundation
+import Swift
+import SwiftUI
+import TreasureComicsFoundationKit
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class PlugNotificationBuilder {
+  public static func builder() -> any TreasureComicsFoundationKit.NotificationContractorBuilder
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class NotificationWebKit {
+  public static func retrieveStatus() -> TreasureComicsFoundationKit.NotifyStatus
+  public static func updateStatus(status: TreasureComicsFoundationKit.NotifyStatus)
+  public static func openInduceView(rootViewController: UIKit.UIViewController, title: Swift.String, content: Swift.String, iconUrl: Swift.String?, delaySeconds: Swift.Int, payload: Swift.String)
+  public static func openSetting(rootViewController: UIKit.UIViewController)
+  public static func deliverNotification(title: Swift.String, content: Swift.String, delaySeconds timeInterval: Swift.Int, payload: [Swift.String : Swift.String]?, completionHandler: @escaping (Swift.Bool) -> Swift.Void)
+  @objc deinit
+}
